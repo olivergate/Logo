@@ -2,6 +2,10 @@
     font-family: 'Grotesk FSM';
     src: url('GroteskM.otf');
 }
+@font-face {
+    font-family: 'Grotesk FS';
+    src: url('../Logo2/Grotesk.otf');
+}
 
 * {
     box-sizing: border-box;
@@ -15,15 +19,16 @@ body {
 }
 .mayden_lettering {
     font-size: 100px;
-    color: #b1b1b1;
+    color: #b7b7b7;
     position: relative;
-    left: 50px;
+    left: 51px;
     float: left;
-    padding-top: 128px
+    padding-top: 28px
 
 }
 
 .logo_a {
+    font-family: "Grotesk FSM", "Times New Roman", sans-serif;
     display: inline-block;
     font-size: 270px;
     color: #ffffff;
@@ -48,7 +53,7 @@ body {
     height: 180px;
 }
 .position {
-    padding: 100px;
+    padding-left: 100px;
     float: left;
 }
 
