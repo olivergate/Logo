@@ -1,9 +1,46 @@
+@font-face {
+    font-family: 'Grotesk FSM';
+    src: url('GroteskM.otf');
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    height: 100vh;
+    background-color: white;
+    font-family: "Grotesk FSM", "Times New Roman", sans-serif;
+}
+.mayden_lettering {
+    font-size: 100px;
+    color: #b1b1b1;
+    position: relative;
+    left: 50px;
+    float: left;
+    padding-top: 128px
+
+}
+
+.logo_a {
+    display: inline-block;
+    font-size: 270px;
+    color: #ffffff;
+    position: relative;
+    bottom: 232px;
+    left: 5px;
+}
+
+.logo_circle {
+    box-sizing: unset;
+    height: 178px;
+    width: 178px;
+    border-radius: 100%;
+    border: white solid 50px;
+    position: relative;
+    bottom: 554px;
+    right: 49px;
 }
 
 .container {
@@ -11,7 +48,8 @@ body {
     height: 180px;
 }
 .position {
-
+    padding: 100px;
+    float: left;
 }
 
 .top_row {
@@ -22,13 +60,13 @@ body {
 }
 
 .middle_row{
-    height: 45%;
+    height: 52%;
     width: 100%;
     background-color: #f27324;
 }
 
 .bottom_row {
-    height: 30%;
+    height: 23%;
     width: 100%;
     background-color: #295074;
 
