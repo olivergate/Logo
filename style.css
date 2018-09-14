@@ -10,33 +10,31 @@ body {
     width: 180px;
     height: 180px;
 }
+.position {
+
+}
+
 .top_row {
-    height: 36px;
-    width: 180px;
-    background-color: #0b7384;
+    height: 25%;
+    width: 100%;
+    background-color: #94ba66;
 
 }
 
 .middle_row{
-    height: 108px;
-    width: 180px;
-    background-color: #d64405;
+    height: 45%;
+    width: 100%;
+    background-color: #f27324;
 }
 
 .bottom_row {
-    height: 36px;
-    width: 180px;
-    background-color: #0e415a;
+    height: 30%;
+    width: 100%;
+    background-color: #295074;
 
 }
-.top_row .logo_green {
+.top_row .logo_teal {
     width: 50%;
-    height: 100%;
-    float: right;
-}
-
-.middle_row .logo_green {
-    width: 30%;
     height: 100%;
     float: right;
 }
@@ -44,19 +42,25 @@ body {
 .middle_row .logo_teal {
     width: 30%;
     height: 100%;
+    float: right;
+}
+
+.middle_row .logo_green {
+    width: 30%;
+    height: 100%;
     float: left;
 }
 
 
 .logo_teal {
-    background-color: #0b7384;
+    background-color: #288fb0;
 }
 .logo_orange {
-    background-color: #d64405;
+    background-color: #f27324;
 }
 .logo_blue {
-    background-color: #0e415a;
+    background-color: #295074;
 }
 .logo_green {
-    background-color: #53a00a;
+    background-color: #94ba66;
 }
